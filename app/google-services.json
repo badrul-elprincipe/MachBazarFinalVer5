@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "743580015175",
+    "firebase_url": "https://machbazarfinalver5.firebaseio.com",
+    "project_id": "machbazarfinalver5",
+    "storage_bucket": "machbazarfinalver5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743580015175:android:fc507c86a26d5aa9",
+        "android_client_info": {
+          "package_name": "com.badrul.user.machbazarfinalver5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743580015175-tuvm0qo94oga8hkebvpjhl9vhj09q33g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.badrul.user.machbazarfinalver5",
+            "certificate_hash": "97bc7e8d95daa681f7a033d566836f06228df676"
+          }
+        },
+        {
+          "client_id": "743580015175-p8ji7rim6ont14p1uifd4id42vol7inq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoCLiCSad9yWiQ0z-Zgk3FktEWHKOhtK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743580015175-p8ji7rim6ont14p1uifd4id42vol7inq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

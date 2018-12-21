@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menuAbout"
+        android:title="@string/mAbout"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menuContact"
+        android:title="@string/mContact"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menuEnglish"
+        android:title="English" />
+    <item
+        android:id="@+id/menuBangla"
+        android:title="বাংলা"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menuExit"
+        android:title="@string/mExit"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="@string/mLogOut"
+        app:showAsAction="never"
+        />
+
+</menu>

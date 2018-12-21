@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/lg" />
+
+    <EditText
+        android:id="@+id/ph"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:hint="Enter 11 digit Phone Number 01*********"
+        android:inputType="phone"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <Button
+        android:id="@+id/phc"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ph"
+        android:layout_centerHorizontal="true"
+        android:onClick="otpSent"
+        android:text="Send OTP"
+        android:layout_marginStart="65dp"
+        android:layout_width="230dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#fffafa"
+        android:background="#3D4238"
+        />
+
+    <TextView
+        android:id="@+id/resend"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="65dp"
+        android:onClick="resend"
+        android:text="Resend OTP"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <EditText
+        android:id="@+id/otp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:layout_marginStart="65dp"
+        android:layout_width="230dp"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <Button
+        android:id="@+id/log"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-135dp"
+        android:onClick="logIn"
+        android:text="Verify and Log In"
+        android:layout_marginStart="65dp"
+        android:layout_width="230dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#fffafa"
+        android:background="#3D4238"
+
+        />
+
+
+
+
+</LinearLayout>

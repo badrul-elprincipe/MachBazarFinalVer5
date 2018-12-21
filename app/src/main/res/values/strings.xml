@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_name">MachBazar</string>
+
+
+    <string name="fish_1">Hilsha(Sea)</string>
+    <string name="fish_2">Hilsha(River)</string>
+    <string name="fish_3">Tuna(Normal)</string>
+    <string name="fish_4">Tuna(Premium)</string>
+    <string name="fish_5">Tuna(Special)</string>
+    <string name="fish_6">Poa(Normal)</string>
+    <string name="fish_7">Poa(Premium)</string>
+    <string name="fish_8">Poa(Special)</string>
+    <string name="fish_9">Topse(Normal)</string>
+    <string name="fish_10">Topse(Premium)</string>
+
+
+    <string name="fishdet_1">Weight of each hilsa: 1 kg(+). Price: 1250/- per kg. Minimum order: 3 pieces. Delivery time: maximum 72 hours.</string>
+    <string name="fishdet_2">Weight of each hilsa: 1 kg(+). Price: 1500/- per kg. Minimum order: 2 pieces. Delivery time: maximum 72 hours.</string>
+    <string name="fishdet_3">Weight of each fish: 2 kg (+). Price: Rs 300/- per kg. Delivery time: maximum 72 hours. Delivery charge: 100 taka (in Dhaka city).</string>
+    <string name="fishdet_4">Weight of each fish: 4 kg (+). Price: 350/- per kg. Delivery time: maximum 72 hours. Delivery charge: 100 taka (in Dhaka city).</string>
+    <string name="fishdet_5">Weight of each fish: 5 kg (+). Price: Rs 400/- per kg. Delivery time: depends on supply. Delivery charge: 100 taka (in Dhaka city).</string>
+    <string name="fishdet_6">Number of fish in every kilogram: 8 to 12 pieces. Price: 450/- per kg. Minimum order: 2 kg. Delivery time: maximum 72 hours. Delivery charge: 100 taka (in Dhaka city).</string>
+    <string name="fishdet_7">The number of fish in every kilogram: 5 to 6 pieces. Price: 650/- per kg. Minimum order: 2 kg. Delivery time: maximum 72 hours. Delivery charge: 100 taka (in Dhaka city).</string>
+    <string name="fishdet_8">Number of fish in every kilogram: 4 pieces. Price: 1000/- per kg. Minimum order: 2 kg. Delivery time: dependent on supply. Delivery charge: 100 taka (in Dhaka city).</string>
+    <string name="fishdet_9">Number of fish in every kilo: 40 to 60 pieces. Price: 990/- per kg. Minimum order: 2 kg. Delivery time: maximum 72 hours. Delivery charge: 100 taka (in Dhaka city).</string>
+    <string name="fishdet_10">Number of fish in every kilogram: 25 to 30 pieces. Price: 1190/- per kg. Minimum order: 2 kg. Delivery time: maximum 72 hours. Delivery charge: 100 taka (in Dhaka city).</string>
+
+    <string name="button_memo">Cart</string>
+    <string name="button_buy">Buy</string>
+
+
+    <string name="fishq_p">pcs.</string>
+    <string name="fishq_k">kg</string>
+
+    <string name="fishp_1">Price: 1250</string>
+    <string name="fishp_2">Price: 1500</string>
+    <string name="fishp_3">Price: 300</string>
+    <string name="fishp_4">Price: 350</string>
+    <string name="fishp_5">Price: 400</string>
+    <string name="fishp_6">Price: 450</string>
+    <string name="fishp_7">Price: 650</string>
+    <string name="fishp_8">Price: 1000</string>
+    <string name="fishp_9">Price: 990</string>
+    <string name="fishp_10">Price: 1190</string>
+
+    <string name="unit">" "taka/kg</string>
+
+    <string name="mAbout">About Us</string>
+    <string name="mContact">Contact Us</string>
+    <string name="mExit">Exit</string>
+    <string name="mLogOut">Log Out</string>
+
+    <string name="abouttext">MachBazar is the fastest growing technology-based fish market of Bangladesh. MachBazar started supplying fish in Dhaka with the promise of fresh and adulterated fish when selling fish, selling rotten fish of retail fish vendors, showing fish fresh with other harmful chemicals including formalin and other unprotected activities. MachBazar is a realistic and implementable solution to tackle the structural problems of fish marketing. As a reliable e-commerce company and one of the most popular fish sales and service providers, MachBazar is currently at the top of the consumer\'s choice. Collect fresh, chemical-free and unaccustomed fishes from the fishermen directly and each order is packed separately from the world with the help of world-class technology to the customers of Dhaka.</string>
+
+
+    <string name="ctext">If you want to ask anything and request special order (fish outside the menu) please contact us via mail, facebook or phone.</string>
+
+    <string name="cart_title">Cart</string>
+    <string name="cart_head">You Have Added:</string>
+    <string name="cart_name">Enter Your Name</string>
+    <string name="cart_add">Enter Detailed Address</string>
+    <string name="cart_off">Discount available on this month is 0%</string>
+    <string name="cart_but">Prepare Invoice</string>
+    <string name="cart_ins">Press Back Button to cancel order and go back and Long Press on item to remove it from the cart and you have to fill both your name and address to continue shopping</string>
+
+
+    <string name="inv_title">Invoice</string>
+    <string name="inv_ins">To finalise order press PLACE ORDER and to cancel order or go back press GO BACK TO MENU</string>
+    <string name="inv_bto">Place Order</string>
+    <string name="inv_btg">Back To Menu</string>
+</resources>

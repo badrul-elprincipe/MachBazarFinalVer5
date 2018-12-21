@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Memo"
+
+    >
+
+
+    <TextView
+        android:id="@+id/kena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#3D4238"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/cart_head"
+        />
+
+    <ListView
+        android:id="@+id/list3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dname"
+
+        android:hint="Enter Your Full Name"
+
+
+
+
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/daddress"
+        android:layout_marginBottom="20dp"
+
+        android:hint="Enter Detailed Address"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/dtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cart_off"
+
+        android:textSize="20dp"
+        android:textColor="#3D4238"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3D4238"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="finish"
+        android:text="@string/cart_but"
+
+
+        android:textColor="#fffafa"
+
+        />
+
+    <TextView
+        android:id="@+id/htext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cart_ins"
+        android:textSize="12dp"
+        android:textColor="#3D4238"
+        android:textStyle="bold"
+
+
+        />
+</LinearLayout>
